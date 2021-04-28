@@ -17,6 +17,7 @@ require (
 	github.com/go-playground/form v3.1.4+incompatible // indirect
 	github.com/go-playground/lars v4.0.1+incompatible
 	github.com/go-zoo/bone v1.3.0
+	github.com/goccy/go-json v0.4.13 // indirect
 	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b
 	github.com/gorilla/mux v1.7.4
 	github.com/gorilla/sessions v1.2.0 // indirect
@@ -53,10 +54,11 @@ require (
 	github.com/vulcand/predicate v1.1.0 // indirect
 	github.com/zenazn/goji v0.9.0
 	goji.io v2.0.2+incompatible
-	golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79 // indirect
 	golang.org/x/net v0.0.0-20200506145744-7e3656a0809f // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/ini.v1 v1.55.0 // indirect
 	gopkg.in/macaron.v1 v1.3.6
 )
+
+replace github.com/gin-gonic/gin => github.com/g1eny0ung/gin v1.7.1-beta.1

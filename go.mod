@@ -61,4 +61,4 @@ require (
 	gopkg.in/macaron.v1 v1.3.6
 )
 
-replace github.com/gin-gonic/gin => github.com/g1eny0ung/gin v1.7.1-beta.1
+replace github.com/gin-gonic/gin => github.com/g1eny0ung/gin v1.7.1-beta.2
